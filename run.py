@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import os, subprocess, json
-import datetime, re, shutil
+import datetime, re, shutil, uuid
 
 # <- setting
 TOK_FILE = "run.py.tok"  # file contains joplin token
